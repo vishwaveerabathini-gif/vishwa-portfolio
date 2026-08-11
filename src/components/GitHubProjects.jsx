@@ -12,14 +12,10 @@ export const GitHubProjects = () => {
       <div className="container">
         
         {/* Section Header */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-8 sm:mb-10">
           <div className="flex flex-col items-start">
-            <div className="section-tag" data-cursor-text="GITHUB">
-              <span className="section-tag-dot" />
-              <span>05 // GITHUB & LIVE PROJECTS</span>
-            </div>
             <h2 className="section-title">
-              GitHub Profile & <span className="text-gradient-accent interactive-word" data-cursor-text="PROJECTS">Live Projects</span>
+              <span className="interactive-word" data-cursor-text="GITHUB">GitHub Profile</span> & <span className="text-gradient-accent interactive-word" data-cursor-text="PROJECTS">Live Projects</span>
             </h2>
             <p className="section-subtitle mb-0">
               Visit my GitHub profile or click any project thumbnail below to directly open the live deployed application.

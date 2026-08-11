@@ -27,16 +27,12 @@ export const About = () => {
       <div className="container">
         
         {/* Section Header */}
-        <div className="flex flex-col items-start mb-12">
-          <div className="section-tag" data-cursor-text="ABOUT">
-            <span className="section-tag-dot" />
-            <span>01 // ABOUT ME</span>
-          </div>
+        <div className="flex flex-col items-start mb-8 sm:mb-10">
           <h2 className="section-title">
-            Engineering with <span className="text-gradient-accent interactive-word" data-cursor-text="INTENTION">Intention & Scale</span>
+            About <span className="text-gradient-accent interactive-word" data-cursor-text="ABOUT">Me</span>
           </h2>
           <p className="section-subtitle">
-            Bridging complex distributed backend systems with polished frontend experiences and applied artificial intelligence.
+            Engineering with intention & scale — bridging distributed backend systems with polished frontend experiences and applied AI.
           </p>
         </div>
 

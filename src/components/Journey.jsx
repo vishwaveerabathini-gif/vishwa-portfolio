@@ -17,13 +17,9 @@ export const Journey = () => {
       <div className="container">
         
         {/* Section Header */}
-        <div className="flex flex-col items-start mb-14">
-          <div className="section-tag">
-            <span className="section-tag-dot" />
-            <span>05 // ROADMAP & MILESTONES</span>
-          </div>
+        <div className="flex flex-col items-start mb-8 sm:mb-10">
           <h2 className="section-title">
-            The Developer <span className="text-gradient-accent">Journey</span>
+            The Developer <span className="text-gradient-accent interactive-word" data-cursor-text="JOURNEY">Journey</span>
           </h2>
           <p className="section-subtitle">
             A chronological timeline of engineering roles, academic foundations, and key technical milestones.

@@ -53,11 +53,7 @@ export const Contact = () => {
       <div className="container relative z-10 max-w-3xl">
         
         {/* Section Header */}
-        <div className="flex flex-col items-center text-center mx-auto mb-12">
-          <div className="section-tag justify-center mb-3" data-cursor-text="MESSAGE">
-            <span className="section-tag-dot bg-emerald-400" />
-            <span>07 // CONTACT</span>
-          </div>
+        <div className="flex flex-col items-center text-center mx-auto mb-10 sm:mb-12">
           <h2 className="font-display font-black text-3xl sm:text-4xl text-white tracking-tight leading-tight mb-3">
             Send a <span className="text-gradient-accent interactive-word" data-cursor-text="MESSAGE">Message</span>
           </h2>

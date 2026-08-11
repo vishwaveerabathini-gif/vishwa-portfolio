@@ -19,13 +19,9 @@ export const Skills = () => {
       <div className="container">
         
         {/* Section Header */}
-        <div className="flex flex-col items-start mb-10">
-          <div className="section-tag" data-cursor-text="SKILLS">
-            <span className="section-tag-dot" />
-            <span>02 // TECHNICAL ARSENAL</span>
-          </div>
+        <div className="flex flex-col items-start mb-8 sm:mb-10">
           <h2 className="section-title">
-            Skills & <span className="text-gradient-accent interactive-word" data-cursor-text="SPECIALIZATION">Specializations</span>
+            <span className="interactive-word" data-cursor-text="SKILLS">Skills</span> & <span className="text-gradient-accent interactive-word" data-cursor-text="SPECIALIZATION">Specializations</span>
           </h2>
           <p className="section-subtitle">
             A comprehensive overview of the modern technologies, frameworks, and architectural tools I leverage daily.

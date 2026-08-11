@@ -92,11 +92,6 @@ export const Projects = () => {
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
           <div className="flex flex-col items-start">
             <div className="flex items-center gap-3 mb-2">
-              <div className="section-tag mb-0" data-cursor-text="PROJECTS">
-                <span className="section-tag-dot" />
-                <span>04 // FEATURED WORK</span>
-              </div>
-
               {/* GitHub Auto-Sync Button */}
               <button
                 onClick={syncGitHubProjects}

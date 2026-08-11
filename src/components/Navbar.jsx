@@ -77,8 +77,8 @@ export const Navbar = () => {
           </span>
         </a>
 
-        {/* Desktop Navigation Links */}
-        <nav className="hidden md:flex items-center gap-2 bg-[#10131d]/80 backdrop-blur-md px-3 py-1.5 rounded-full border border-white/10 shadow-inner">
+        {/* Desktop Navigation Links - Perfectly Framed from Image Start to Image End */}
+        <nav className="hidden md:flex items-center justify-between w-full max-w-[360px] bg-[#10131d]/90 backdrop-blur-md px-2.5 py-1.5 rounded-full border border-white/10 shadow-inner">
           {navLinks.map((link) => {
             const isActive = activeSection === link.href.substring(1);
             return (
@@ -87,7 +87,7 @@ export const Navbar = () => {
                 href={link.href}
                 onClick={(e) => handleLinkClick(e, link.href)}
                 data-cursor-text={link.name.toUpperCase()}
-                className={`relative px-4 py-1.5 rounded-full text-xs font-medium transition-all ${
+                className={`relative px-2.5 py-1 rounded-full text-xs font-medium transition-all ${
                   isActive ? 'text-white' : 'text-zinc-400 hover:text-zinc-200'
                 }`}
               >

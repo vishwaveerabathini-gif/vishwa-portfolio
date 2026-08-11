@@ -17,14 +17,10 @@ export const LeetCodeSection = () => {
       <div className="container">
         
         {/* Section Header */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-8 sm:mb-10">
           <div className="flex flex-col items-start">
-            <div className="section-tag" data-cursor-text="LEETCODE">
-              <span className="section-tag-dot bg-amber-400" />
-              <span>04 // COMPETITIVE CODING</span>
-            </div>
             <h2 className="section-title">
-              LeetCode & <span className="text-gradient-accent interactive-word" data-cursor-text="ALGORITHMS">Problem Solving</span>
+              <span className="interactive-word" data-cursor-text="LEETCODE">LeetCode</span> & <span className="text-gradient-accent interactive-word" data-cursor-text="ALGORITHMS">Problem Solving</span>
             </h2>
             <p className="section-subtitle mb-0">
               Continuously sharpening data structures and algorithmic efficiency on LeetCode.

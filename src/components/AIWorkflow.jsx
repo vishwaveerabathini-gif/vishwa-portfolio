@@ -97,11 +97,7 @@ export const AIWorkflow = () => {
       <div className="container">
         
         {/* Section Header */}
-        <div className="flex flex-col items-start mb-12">
-          <div className="section-tag" data-cursor-text="WORKFLOW">
-            <span className="section-tag-dot" />
-            <span>03 // ENGINEERING LIFECYCLE</span>
-          </div>
+        <div className="flex flex-col items-start mb-8 sm:mb-10">
           <h2 className="section-title">
             The AI + Full-Stack <span className="text-gradient-accent interactive-word" data-cursor-text="DEVELOPMENT">Development Flow</span>
           </h2>

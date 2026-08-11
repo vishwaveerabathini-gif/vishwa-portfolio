@@ -50,12 +50,8 @@ export const GitHubShowcase = () => {
       <div className="container">
         
         {/* Section Header */}
-        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-6 mb-10">
+        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-6 mb-8 sm:mb-10">
           <div className="flex flex-col items-start">
-            <div className="section-tag" data-cursor-text="OPEN SOURCE">
-              <span className="section-tag-dot" />
-              <span>06 // OPEN SOURCE & CODING PROFILES</span>
-            </div>
             <h2 className="section-title">
               GitHub & <span className="text-gradient-accent interactive-word" data-cursor-text="LEETCODE">LeetCode Activity</span>
             </h2>
