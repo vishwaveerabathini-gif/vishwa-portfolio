@@ -44,7 +44,8 @@ export const Projects = () => {
             }
 
             // Direct live app URL
-const liveAppUrl = idx === 1
+const liveAppUrl = repo.name.toLowerCase().includes('to-do') ||
+                   repo.name.toLowerCase().includes('todo')
   ? 'https://to-do-list-3m62.onrender.com/'
   : (
       repo.homepage && repo.homepage.startsWith('http')
