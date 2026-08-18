@@ -2,7 +2,14 @@ import React from 'react';
 import { ExternalLink } from 'lucide-react';
 
 export const ProjectCard = ({ project }) => {
-  const targetUrl = project.liveDemo || project.github;
+  const isTodoProject =
+  project.name?.toLowerCase().includes('todo') ||
+  project.name?.toLowerCase().includes('to-do') ||
+  project.github?.toLowerCase().includes('/to-do-list');
+
+const targetUrl = isTodoProject
+  ? 'https://to-do-list-3m62.onrender.com/'
+  : (project.liveDemo || project.github);
 
   return (
     <a
