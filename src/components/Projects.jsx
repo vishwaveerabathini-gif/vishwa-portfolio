@@ -43,10 +43,14 @@ export const Projects = () => {
               technologies.push('JavaScript', 'Web Development');
             }
 
-            // Direct live app URL: custom homepage OR GitHub Pages URL
-            const liveAppUrl = repo.homepage && repo.homepage.startsWith('http')
-              ? repo.homepage
-              : `https://${profileData.githubUsername}.github.io/${repo.name}/`;
+            // Direct live app URL
+const liveAppUrl = idx === 1
+  ? 'https://to-do-list-3m62.onrender.com/'
+  : (
+      repo.homepage && repo.homepage.startsWith('http')
+        ? repo.homepage
+        : `https://${profileData.githubUsername}.github.io/${repo.name}/`
+    );
 
             return {
               id: repo.name,
